@@ -31,7 +31,7 @@
 						<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
 					</div>
 					<div class="main-header__right">
-						<a href="mailto:848SOL@gmail.com" class="main-header__email">848SOL@gmail.com</a>
+						<!--<a href="mailto:848SOL@gmail.com" class="main-header__email">848SOL@gmail.com</a>-->
 						<a href="#contact-us" class="template-btn" data-contact>HIRE US</a>
 					</div>
 				</div>
