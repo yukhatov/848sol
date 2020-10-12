@@ -80,6 +80,7 @@
 <script src="js/fullpage.js"></script>
 <script src="js/scrolloverflow.min.js"></script>
 <script src="js/template.js"></script>
+<script src="js/form-handler.js"></script>
 </body>
 
 </html>
