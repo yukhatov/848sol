@@ -46,7 +46,7 @@ function sendMessage($body)
 
     $mail->MsgHTML($body);
 
-    $address = "yukhatov@gmail.com";
+    $address = "massiveintelligencedev@gmail.com";
     $mail->AddAddress($address, "Artur Yukhatov");
 
     if(!$mail->Send()) {

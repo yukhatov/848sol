@@ -434,25 +434,25 @@
             <p><span>Get in touch</span> to partner with us or for more information on our products, careers and certifications.</p>
             <p>Fill out the form below and we will get back to you shortly.</p>
             <form action="" class="section-five__form--wrapper">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="email" placeholder="Email *">
-                <input type="tel" placeholder="Phone Number">
-                <input type="text" placeholder="Job Title *">
-                <input type="text" placeholder="Company *">
-                <select name="relation-ship" id="relation-ship" class="custom-select">
+                <input name="first_name" type="text" placeholder="First Name">
+                <input name="last_name" type="text" placeholder="Last Name">
+                <input name="email" type="email" placeholder="Email *">
+                <input name="phone" type="tel" placeholder="Phone Number">
+                <input name="job" type="text" placeholder="Job Title *">
+                <input name="company" type="text" placeholder="Company *">
+                <!--<select name="relation-ship" id="relation-ship" class="custom-select">
                     <option value="Relationship to EdgeVerve" selected hidden>Relationship to EdgeVerve</option>
                     <option value="1">1</option>
                     <option value="1">1</option>
                     <option value="1">1</option>
-                </select>
+                </select>-->
                 <label for="privacy-policy-field">
                     <p>Check here to in indicate you have read
                         and agree to EdgeVerve <a href=#">privacy policy</a></p>
                     <input type="checkbox" id="privacy-policy-field">
                 </label>
                 <div class="section-five__form--btn">
-                    <button type="submit" class="template-btn with-icon" data-toggle="modal" data-target="#contact-modal"><img src="images/mail-icon.svg" alt="">SUBMIT</button>
+                    <button onclick="contactUsFormHandler()" type="submit" class="template-btn with-icon" data-toggle="modal" data-target="#contact-modal"><img src="images/mail-icon.svg" alt="">SUBMIT</button>
                 </div>
             </form>
         </div>
