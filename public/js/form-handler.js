@@ -8,8 +8,6 @@ function contactUsFormHandler() {
         'company'           : $('input[name=company]').val(),
     };
 
-    console.log(formData);
-
     // process the form
     $.ajax({
         type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
