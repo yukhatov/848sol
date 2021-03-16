@@ -350,7 +350,7 @@
         </div>
     </div>
     <div class="section-three__image">
-        <img src="/public/images/people.png" alt="">
+        <img src="images/people.png" alt="">
     </div>
     <img src="images/section-3-leaf.png" class="section-three__leaf" alt="">
     <div class="section-three__circles">
